@@ -6,7 +6,7 @@
 Markowitz is an application that aims to help make investment decisions by getting historical prices for a stock along with measuring the expected
 return and variance of the daily returns of the stock. This is 
 accomplished by allowing the user to first decide how many stocks
-will be in their portfolio. Next, a form will generate which requires
+will in their portfolio. Next, a form will generate which requires
 the user to enter in the stock symbols corresponding to the stocks
 in their portfolio. Once the form is filled out, the form then sends
 the list of stock symbols to the back-end. The back-end fetches
@@ -17,6 +17,9 @@ for the set containing the daily returns. The variance is also
 calculated for the set containing the daily returns. The expected
 return and the variance is sent to the front-end to be displayed
 on the client.
+## Deployement
+
+https://salty-ocean-00453.herokuapp.com
 
 ## Installation
 
